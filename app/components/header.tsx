@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { NavTabType, SocialMediaType } from "../consts";
 
 type Props = {
@@ -8,16 +9,16 @@ type Props = {
 
 export default function Header({ name, navTabs, socialMediaLinks }: Props) {
   return (
-    <header className="flex w-full justify-between p-4">
-      <div className="name">{name}</div>
-      <nav className="flex gap-4">
+    <header className="flex flex-col sm:flex-row gap-8 w-full justify-between p-8 pl-16 pr-16 text-blue-950 items-center">
+      <div className="name font-semibold text-lg">{name}</div>
+      <nav className="flex gap-12 text-sm font-normal">
         {navTabs.map((tab: NavTabType) => (
-          <a key={tab.name} href={tab.href} className="nav-tab">
+          <Link key={tab.name} href={tab.href} className="nav-tab">
             {tab.name}
-          </a>
+          </Link>
         ))}
       </nav>
-      <div className="social-media-links flex gap-4">
+      <div className="social-media-links flex gap-6">
         {socialMediaLinks.map((social: SocialMediaType) => (
           <a
             key={social.name}
@@ -25,7 +26,7 @@ export default function Header({ name, navTabs, socialMediaLinks }: Props) {
             className="social-media-link"
             target="_blank"
           >
-            {<social.icon />}
+            {<social.icon size={18} />}
           </a>
         ))}
       </div>
