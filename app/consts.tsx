@@ -27,7 +27,7 @@ const CONSTS = {
       title: "Newsletter Section",
       url: "https://kevnien.github.io/newsletter-section/",
       thumbnailSrc:
-        "https://cdn.discordapp.com/attachments/457421693527392287/1389029707529584691/Screenshot_2025-06-29_at_4.46.36_PM.png?ex=68632239&is=6861d0b9&hm=edfdbc4898699ef001f2907319342ccd6a4bfcddaeeca1d50d004ddcd022a3bf&",
+        "https://ucdf0fe8762c7105e52e649bfda3.previews.dropboxusercontent.com/p/thumb/ACq6HDtLbOtgOBskBRRosLwdmypLx1Zs1wBdI-_nis2EysHWugxtASXRXu4qoqXoQ9mhIt_VQRUJ3KMnEGYv5Uc-sEs4-8MaSxMtPjp2ElCYbZLxntjTCa4Zdr7ZqUGxIuq-9YUs0xxsuHi6T4o-2Rnc-_qdJzZ0slFosMwQAZ5RMn4vJUKMAiksQSnIeej5J4jOktAkeKAEdXsJrbQ2TcCogbqXHRVzUDHO9FXFhBdfJVABA56XrByQMoLySNzbHYIKHcc25KIv3g3fwjyd6EbGtC_Zh27B879wxeoOLXfVw8M9ZQlLnemVARrkhNntBYpw3pK1Dm0Q-6q28_CFI41vBwwKJ5yjL41CKqAy_7Y1AbTFZkFJQjnUJeeYPwkpIvo/p.png?is_prewarmed=true",
       alt: "newsletter section thumbnail - bullet points, email input, subscribe button, and image of newsletter contents",
       date: new Date("June 27, 2025"),
       description:
@@ -37,7 +37,7 @@ const CONSTS = {
       title: "Collections Grid",
       url: "https://kevnien.github.io/collections-grid-section/",
       thumbnailSrc:
-        "https://cdn.discordapp.com/attachments/457421693527392287/1389030343117377626/Screenshot_2025-06-29_at_4.50.23_PM.png?ex=686322d0&is=6861d150&hm=2f6a71cbf5c9aa81f486a4caace15ce9d8943aa3d668f785edf53f0773b1aba7&",
+        "https://uc3a25e76a6b39601d35ff45a139.previews.dropboxusercontent.com/p/thumb/ACog2CtK7RoMiZAElibOL02fwBLCQkd7PV6lDfuwz8-fSA4t5PoLZ4PdMzgUVAt2LOrDhePZw0hRoUaZQjm8uCgZ7KBUP-hooqPVac8s4P_rO07PJ9i-jaJ_oWshdmAfiE3y9O0B7A6uH_yB7OLAzG0ia0zlZvqFYd6O_KBZ_JgRGucQoxTbC8VJTgi6BAykKXKN8hx_I-Omq2NnNLsnTkV477tiPlfQAXjoMMd7OKKW5SxdTpip57a19aqbqQIVh3CaTU1QElZHAWDgIrA3Xch1xvCCe9VGCkBh5NEqTwdfen57J7-h9pZ2W8oO_RrHxr2VRkhipsS_cWmV6ByBjdi68kP4v1M36udIZfmxsGP9LyyM7CJk2jzcQa9QS7nNOwk/p.png?is_prewarmed=true",
       alt: "collections grid thumbnail - grid of images with titles and descriptions",
       date: new Date("June 23, 2025"),
       description:

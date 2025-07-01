@@ -5,7 +5,7 @@ export default function Intro() {
   return (
     <section
       id="home"
-      className="intro flex flex-col sm:flex-row gap-8 sm:items-stretch w-full lg:justify-center lg:gap-32"
+      className="intro flex flex-col sm:flex-row gap-8 sm:items-stretch w-full  lg:gap-32 max-w-4xl"
     >
       <div className="intro-name flex flex-col justify-center gap-1 grow lg:grow-0">
         <span className="font-medium text-lg">Hello, I&apos;m Kevin,</span>

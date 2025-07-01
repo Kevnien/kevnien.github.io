@@ -10,10 +10,10 @@ export default function Sample({ sample }: { sample: SampleType }) {
 
   return (
     <div
-      className="sample flex flex-col cursor-pointer w-[560px] "
+      className="sample flex flex-col cursor-pointer w-[420px]"
       onClick={handleSampleClick}
     >
-      <div className="image-container h-[400px] w-[560px] relative">
+      <div className="image-container h-[300px] w-[420px] relative">
         <Image
           src={sample.thumbnailSrc}
           alt={sample.alt}
