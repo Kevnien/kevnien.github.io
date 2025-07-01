@@ -16,8 +16,7 @@ const CONSTS = {
       icon: FaLinkedin,
     },
   ],
-  resumeUrl:
-    "https://cdn.discordapp.com/attachments/457421693527392287/1388944977828122635/Kevin_Nguyen_CV_FE.pdf?ex=6862d350&is=686181d0&hm=3865f392485d6a43c9602e797f72150e64295efa04e9c3df968d6a6fc3153739&",
+  resumeUrl: "/Kevin Nguyen CV FE.pdf",
   profilePicInfo: {
     url: "https://avatars.githubusercontent.com/u/16169867?v=4",
     alt: "Kevin's Picture",

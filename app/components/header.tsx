@@ -13,7 +13,7 @@ export default function Header({ name, navTabs, socialMediaLinks }: Props) {
       <div className="name font-semibold text-lg">{name}</div>
       <nav className="flex gap-12 text-sm font-normal">
         {navTabs.map((tab: NavTabType) => (
-          <Link key={tab.name} href={tab.href} className="nav-tab">
+          <Link key={tab.name} href={tab.href} className="nav-tab" tabIndex={1}>
             {tab.name}
           </Link>
         ))}
@@ -25,6 +25,7 @@ export default function Header({ name, navTabs, socialMediaLinks }: Props) {
             href={social.href}
             className="social-media-link"
             target="_blank"
+            tabIndex={0}
           >
             {<social.icon size={18} />}
           </a>

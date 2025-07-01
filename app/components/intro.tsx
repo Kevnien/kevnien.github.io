@@ -17,6 +17,7 @@ export default function Intro() {
             className="resume-link pl-8 pr-8 p-3 rounded-md border-1 border-blue-950 w-fit z-1"
             href={CONSTS.resumeUrl}
             target="_blank"
+            tabIndex={0}
           >
             Resumé
           </a>
