@@ -4,10 +4,6 @@ import Image from "next/image";
 import { SampleType } from "../consts";
 
 export default function Sample({ sample }: { sample: SampleType }) {
-  //   const handleSampleClick = (): void => {
-  //     window.open(sample.url, "_blank");
-  //   };
-
   return (
     <a
       className="sample flex flex-col cursor-pointer w-[420px]"
