@@ -4,14 +4,16 @@ import Image from "next/image";
 import { SampleType } from "../consts";
 
 export default function Sample({ sample }: { sample: SampleType }) {
-  const handleSampleClick = (): void => {
-    window.open(sample.url, "_blank");
-  };
+  //   const handleSampleClick = (): void => {
+  //     window.open(sample.url, "_blank");
+  //   };
 
   return (
-    <div
+    <a
       className="sample flex flex-col cursor-pointer w-[420px]"
-      onClick={handleSampleClick}
+      tabIndex={0}
+      href={sample.url}
+      target="_blank"
     >
       <div className="image-container h-[300px] w-[420px] relative">
         <Image
@@ -28,6 +30,6 @@ export default function Sample({ sample }: { sample: SampleType }) {
         {sample.title}
       </h3>
       <p className="sample-description text-sm">{sample.description}</p>
-    </div>
+    </a>
   );
 }
