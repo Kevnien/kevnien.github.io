@@ -35,7 +35,7 @@ const CONSTS = {
     },
     {
       title: "Collections Grid",
-      url: "https://kevnien.github.io/collections-grid/",
+      url: "https://kevnien.github.io/collections-grid-section/",
       thumbnailSrc:
         "https://cdn.discordapp.com/attachments/457421693527392287/1389030343117377626/Screenshot_2025-06-29_at_4.50.23_PM.png?ex=686322d0&is=6861d150&hm=2f6a71cbf5c9aa81f486a4caace15ce9d8943aa3d668f785edf53f0773b1aba7&",
       alt: "collections grid thumbnail - grid of images with titles and descriptions",
