@@ -36,7 +36,7 @@ const CONSTS = {
       title: "Collections Grid",
       url: "https://kevnien.github.io/collections-grid-section/",
       thumbnailSrc:
-        "https://uc3a25e76a6b39601d35ff45a139.previews.dropboxusercontent.com/p/thumb/ACog2CtK7RoMiZAElibOL02fwBLCQkd7PV6lDfuwz8-fSA4t5PoLZ4PdMzgUVAt2LOrDhePZw0hRoUaZQjm8uCgZ7KBUP-hooqPVac8s4P_rO07PJ9i-jaJ_oWshdmAfiE3y9O0B7A6uH_yB7OLAzG0ia0zlZvqFYd6O_KBZ_JgRGucQoxTbC8VJTgi6BAykKXKN8hx_I-Omq2NnNLsnTkV477tiPlfQAXjoMMd7OKKW5SxdTpip57a19aqbqQIVh3CaTU1QElZHAWDgIrA3Xch1xvCCe9VGCkBh5NEqTwdfen57J7-h9pZ2W8oO_RrHxr2VRkhipsS_cWmV6ByBjdi68kP4v1M36udIZfmxsGP9LyyM7CJk2jzcQa9QS7nNOwk/p.png?is_prewarmed=true",
+        "https://uc3a25e76a6b39601d35ff45a139.previews.dropboxusercontent.com/p/thumb/ACql6QoEjGT4_blt7N0_bj10HJXSC5vAXRCnRlVYWyGtf8qicOczxJ1s_41PuQsOa_5Irf7XgEw-GgPndMSHos4SGveZKyYLGCiJ64Dc3xRUOSbTNrkrXCJh0CEP-sPqGr11ydHBbxXFYQq9P1IUaW9n1tg6UctkQr2cebFtTEohb7wP-TCohNSRl6JRoksnITqF4nttSPSP6yEx6HDoJWhuTxiRPxO4GXsUDckWY1-UPRhc4z9JVrWDNt15XaLYtXq92CKIBNUUXBRtkrITdm8XKW43Q2YaMyO7VayxDE6Vwbcs9IJhJLZPOIKCdbPFndb1YdwSVvzD1Vma53myCjGBnPGPgQYn2BSDgHtQvvDS8bCkyeQOpLWQCHdMAFnIFIw/p.png?is_prewarmed=true",
       alt: "collections grid thumbnail - grid of images with titles and descriptions",
       date: new Date("June 23, 2025"),
       description:
