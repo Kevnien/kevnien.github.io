@@ -6,7 +6,7 @@ import { SampleType } from "../consts";
 export default function Sample({ sample }: { sample: SampleType }) {
   return (
     <a
-      className="sample flex flex-col cursor-pointer w-[420px] hover:ring-2 hover:ring-yellow-200 hover:shadow rounded"
+      className="sample flex flex-col cursor-pointer w-[420px] hover:ring-2 hover:ring-yellow-300 hover:shadow rounded"
       tabIndex={0}
       href={sample.url}
       target="_blank"

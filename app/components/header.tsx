@@ -13,7 +13,12 @@ export default function Header({ name, navTabs, socialMediaLinks }: Props) {
       <div className="name font-semibold text-lg">{name}</div>
       <nav className="flex gap-12 text-sm font-normal">
         {navTabs.map((tab: NavTabType) => (
-          <Link key={tab.name} href={tab.href} className="nav-tab" tabIndex={0}>
+          <Link
+            key={tab.name}
+            href={tab.href}
+            className="nav-tab hover:ring-2 hover:ring-yellow-300 hover:shadow rounded p-1"
+            tabIndex={0}
+          >
             {tab.name}
           </Link>
         ))}
@@ -23,7 +28,7 @@ export default function Header({ name, navTabs, socialMediaLinks }: Props) {
           <a
             key={social.name}
             href={social.href}
-            className="social-media-link"
+            className="social-media-link hover:ring-2 hover:ring-yellow-300 hover:shadow rounded p-1"
             target="_blank"
             tabIndex={0}
           >
