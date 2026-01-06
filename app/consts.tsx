@@ -40,6 +40,15 @@ const CONSTS = {
       description:
         "Many times we need to show users multiple products at once. Here is a collections grid that will request a collection from an endpoint then display the images in a pleasant way. The tiles have hover effects that show a modern design.",
     },
+    {
+      title: "Burgers Instead",
+      url: "https://burger-index--kevnien.replit.app",
+      thumbnailSrc: "/burgers-instead.png",
+      alt: "burgers instead thumbnail - screenshot of app showing burger image and input field",
+      date: new Date("January 5, 2026"),
+      description:
+        "Have problems deciding whether to buy something or not? Burgers Instead is here to help! Just input what you are thinking of buying, and the app will tell you how many burgers you could have bought instead. Built with React and deployed on Replit.",
+    },
   ],
 };
 
